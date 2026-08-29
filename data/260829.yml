@@ -1,0 +1,59 @@
+about:
+  description: A monitor of resources
+  license: Apache-2.0
+  homepage: 
+  head: 76e323d
+  archived: false
+  latestVersion: v1.4.7
+  collectedAt: 2026-08-29T07:16:11Z
+timeline:
+  created: 2021-05-06
+  lastCommit: 2026-08-23
+  lastRelease: 2026-05-01
+popularity:
+  star: 34284
+  watcher: 128
+  fork: 1133
+  release: 55
+  contributor: 171
+  pullRequest: 198
+  issue: 985
+language:
+  C++: 1354205
+  C: 307913
+  Makefile: 18220
+  CMake: 12974
+totalLine: 1693312
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 0
+    mergedPR: 8
+    openPR: 20
+    closedIssue: 2
+    openIssue: 9
+    commit: 9
+  last90d:
+    since: 2026-05-31
+    release: 0
+    mergedPR: 34
+    openPR: 37
+    closedIssue: 8
+    openIssue: 33
+    commit: 36
+  last180d:
+    since: 2026-03-02
+    release: 1
+    mergedPR: 77
+    openPR: 45
+    closedIssue: 29
+    openIssue: 54
+    commit: 110
+  last360d:
+    since: 2025-09-03
+    release: 3
+    mergedPR: 192
+    openPR: 62
+    closedIssue: 115
+    openIssue: 109
+    commit: 273
