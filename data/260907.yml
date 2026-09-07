@@ -5,15 +5,15 @@ about:
   head: 0999c29
   archived: false
   latestVersion: "v1.4.7"
-  collectedAt: 2026-09-07T04:47:19Z
+  collectedAt: 2026-09-07T19:40:32Z
 timeline:
   created: 2021-05-06
   lastCommit: 2026-09-05
   lastRelease: 2026-05-01
 popularity:
-  star: 34436
-  watcher: 131
-  fork: 1144
+  star: 34447
+  watcher: 132
+  fork: 1145
   release: 55
   contributor: 173
   pullRequest: 662
@@ -82,7 +82,7 @@ total:
   commit: 1654
 ---
 path: /home/runner/.x-repo/github.com/aristocratos/btop
-collectedAt: 2026-09-07T04:47:20Z
+collectedAt: 2026-09-07T19:40:34Z
 loc:
   CHeader:
     code: 16187
@@ -148,7 +148,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:47:21+00:00
+  collectedAt: 2026-09-07T19:40:34+00:00
   platform:
     darwin/arm64:
       name:  null
