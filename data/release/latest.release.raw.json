@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 983319,
       "digest": "sha256:6270de0ef4c84cf0eea61cb148b3ad9ae91a11e9c3309867ffc6b3751024c252",
-      "download_count": 30177,
+      "download_count": 30181,
       "created_at": "2026-05-01T16:05:47Z",
       "updated_at": "2026-05-01T16:05:48Z",
       "browser_download_url": "https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-aarch64-unknown-linux-musl.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 918559,
       "digest": "sha256:8d06453d1a71621731429026b6c131d3a73e4309135a2272eeef56e86b12305a",
-      "download_count": 1161,
+      "download_count": 1162,
       "created_at": "2026-05-01T16:05:47Z",
       "updated_at": "2026-05-01T16:05:48Z",
       "browser_download_url": "https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-armv7-unknown-linux-musleabi.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1047005,
       "digest": "sha256:5099054dd6a101bd12eb6ff3702a9a6a3f57aaa27923a0da478ae5b517faf335",
-      "download_count": 41198,
+      "download_count": 41246,
       "created_at": "2026-05-01T16:05:49Z",
       "updated_at": "2026-05-01T16:05:49Z",
       "browser_download_url": "https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz"
