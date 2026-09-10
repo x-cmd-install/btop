@@ -12,6 +12,18 @@ A monitor of resources
 x install btop
 ```
 
+## 代码规模
+
+合计: **37,304** 行代码（覆盖前 5 种语言、共 **74** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| CHeader | 16,187 | 5,507 | 2,605 | 25 |
+| Cpp | 16,068 | 1,254 | 2,259 | 21 |
+| CppHeader | 2,591 | 383 | 326 | 13 |
+| C | 1,268 | 62 | 298 | 4 |
+| Yaml | 715 | 1 | 80 | 11 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/aristocratos/btop>
@@ -22,6 +34,25 @@ x install btop
 - **最新版本**: `v1.4.7` (2026-05-01)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 11 个
+
+## 流行度
+
+- **Star**: 34,516 · **Fork**: 1,149 · **开放 issue**: 989 · **贡献者**: 175
+
+## 累计统计
+
+- **发布数**: 55 · **已合并 PR**: 470 · **开放 PR**: 75 · **已关闭 issue**: 530 · **开放 issue**: 459 · **提交数**: 1659
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 16 | 9 | 4 | 7 | 16 |
+| last60d | 2026-07-12 | 0 | 32 | 23 | 6 | 16 | 32 |
+| 90d | 2026-06-12 | 0 | 44 | 31 | 9 | 30 | 46 |
+| last180d | 2026-03-14 | 1 | 90 | 42 | 28 | 52 | 124 |
+| 360d | 2025-09-15 | 3 | 206 | 61 | 119 | 108 | 285 |
+| last720d | 2024-09-20 | 8 | 293 | 69 | 195 | 209 | 564 |
 
 ## Release 资产
 
@@ -39,33 +70,24 @@ x install btop
 | [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
 | [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 34,511 · **Fork**: 1,148 · **开放 issue**: 988 · **贡献者**: 175
+在 [repology.org](https://repology.org/project/btop) 上共有 **135** 个发行版报告此项目。**62** 个 ✅ 已是最新上游版本，**62** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 55 · **已合并 PR**: 470 · **开放 PR**: 74 · **已关闭 issue**: 530 · **开放 issue**: 458 · **提交数**: 1659
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 16 | 8 | 4 | 6 | 16 |
-| 90d | 2026-06-12 | 0 | 44 | 30 | 9 | 29 | 46 |
-| 360d | 2025-09-15 | 3 | 206 | 60 | 119 | 107 | 285 |
-
-## 代码规模
-
-合计: **37,304** 行代码（覆盖前 5 种语言、共 **74** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| CHeader | 16,187 | 5,507 | 2,605 | 25 |
-| Cpp | 16,068 | 1,254 | 2,259 | 21 |
-| CppHeader | 2,591 | 383 | 326 | 13 |
-| C | 1,268 | 62 | 298 | 4 |
-| Yaml | 715 | 1 | 80 | 11 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.4.7` | ✅ latest |
+| Debian 14 | `1.4.7` | ✅ latest |
+| Debian 13 | `1.3.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.3.0` | ⚠️ outdated |
+| Arch | `1.4.7` | ✅ latest |
+| Homebrew | `1.4.7` | ✅ latest |
+| Fedora rawhide | `1.4.7` | ✅ latest |
+| Nix unstable | `1.4.7` | ✅ latest |
+| Void | `1.4.7` | ✅ latest |
+| Alpine edge | `1.4.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.7` | ✅ latest |
 
 ## 改进这些数据
 
@@ -76,4 +98,4 @@ btop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:34:03Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:05:29Z._
