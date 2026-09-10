@@ -4,7 +4,7 @@
 
 A monitor of resources
 
-![btop](https://repo.x-cmd.io/btop.svg)
+![btop](https://repo.x-cmd.io/btop.svg?lang=zh)
 
 ## 安装
 
@@ -22,11 +22,26 @@ x install btop
 - **最新版本**: `v1.4.7` (2026-05-01)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 11 个
-- **发布时间**: 2026-05-01T16:05:51Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [btop-aarch64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-aarch64-unknown-linux-musl.tar.gz) | 960.3 KiB | `native/linux/arm64/musl` |
+| [btop-arm-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-arm-unknown-linux-musleabi.tar.gz) | 917.6 KiB | `native/linux/arm/musl` |
+| [btop-armv7-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-armv7-unknown-linux-musleabi.tar.gz) | 897.0 KiB | `native/linux/arm/musl` |
+| [btop-i586-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i586-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-i686-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i686-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/x86/musl` |
+| [btop-m68k-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-m68k-unknown-linux-musl.tar.gz) | 961.7 KiB | `native/unknown` |
+| [btop-mips64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-mips64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-powerpc64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-powerpc64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-riscv64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-riscv64-unknown-linux-musl.tar.gz) | 982.6 KiB | `native/linux/riscv64/musl` |
+| [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
+| [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
 
 ## 流行度
 
-- **Star**: 34,491 · **Fork**: 1,145 · **开放 issue**: 988 · **贡献者**: 175
+- **Star**: 34,511 · **Fork**: 1,148 · **开放 issue**: 988 · **贡献者**: 175
 
 ## 累计统计
 
@@ -61,4 +76,4 @@ btop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:50:50Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:34:03Z._
