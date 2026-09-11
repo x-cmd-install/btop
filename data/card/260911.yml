@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.4.7"
   latestRelease: "v1.4.7"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:49:35Z
+  collectedAt: 2026-09-11T20:07:46Z
 timeline:
   created: 2021-05-06
   lastCommit: 2026-09-09
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-05-01
   lastPrerelease: 
 popularity:
-  star: 34518
+  star: 34532
   watcher: 132
-  fork: 1150
+  fork: 1151
   release: 55
   contributor: 175
   pullRequest: 668
@@ -86,7 +86,7 @@ total:
   commit: 1659
 ---
 path: /home/runner/.x-repo/github.com/aristocratos/btop
-collectedAt: 2026-09-11T04:49:37Z
+collectedAt: 2026-09-11T20:07:48Z
 loc:
   CHeader:
     code: 16187
