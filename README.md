@@ -37,7 +37,7 @@ Total: **37,304** lines of code across **74** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 34,518 · **Forks**: 1,150 · **Open issues**: 990 · **Contributors**: 175
+- **Stars**: 34,532 · **Forks**: 1,151 · **Open issues**: 990 · **Contributors**: 175
 
 ## Totals (cumulative)
 
@@ -98,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:49:41Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:07:53Z._
