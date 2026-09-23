@@ -4,7 +4,7 @@
 
 A monitor of resources
 
-[![x-cmd/install — btop Code Quality Monitoring Repo Card](https://repo.x-cmd.io/btop.svg)](https://x-cmd.com/install/btop)
+[![x-cmd/install — btop Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/btop.svg)](https://x-cmd.com/install/btop)
 
 ## Install
 
@@ -37,22 +37,22 @@ Total: **37,149** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 34,695 · **Forks**: 1,165 · **Open issues**: 999 · **Contributors**: 175
+- **Stars**: 34,714 · **Forks**: 1,165 · **Open issues**: 1,000 · **Contributors**: 175
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 475 · **Open PRs**: 78 · **Closed issues**: 533 · **Open issues**: 466 · **Commits**: 1664
+- **Releases**: 55 · **Merged PRs**: 475 · **Open PRs**: 78 · **Closed issues**: 533 · **Open issues**: 467 · **Commits**: 1664
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 20 | 9 | 6 | 10 | 19 |
-| last60d | 2026-07-24 | 0 | 30 | 26 | 7 | 21 | 30 |
-| 90d | 2026-06-24 | 0 | 42 | 34 | 10 | 29 | 41 |
-| last180d | 2026-03-26 | 1 | 89 | 45 | 27 | 58 | 110 |
-| 360d | 2025-09-27 | 2 | 203 | 64 | 114 | 111 | 279 |
-| last720d | 2024-10-02 | 7 | 295 | 72 | 192 | 211 | 556 |
+| 30d | 2026-08-24 | 0 | 20 | 9 | 6 | 11 | 19 |
+| last60d | 2026-07-25 | 0 | 30 | 26 | 7 | 22 | 30 |
+| 90d | 2026-06-25 | 0 | 42 | 33 | 10 | 29 | 41 |
+| last180d | 2026-03-27 | 1 | 88 | 45 | 27 | 59 | 110 |
+| 360d | 2025-09-28 | 2 | 202 | 64 | 114 | 112 | 279 |
+| last720d | 2024-10-03 | 7 | 295 | 72 | 191 | 211 | 556 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:13:23Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:01:55Z._
