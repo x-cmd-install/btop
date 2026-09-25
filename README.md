@@ -37,22 +37,22 @@ Total: **37,149** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 34,732 · **Forks**: 1,169 · **Open issues**: 1,000 · **Contributors**: 175
+- **Stars**: 34,742 · **Forks**: 1,171 · **Open issues**: 1,002 · **Contributors**: 175
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 475 · **Open PRs**: 79 · **Closed issues**: 533 · **Open issues**: 467 · **Commits**: 1664
+- **Releases**: 55 · **Merged PRs**: 475 · **Open PRs**: 82 · **Closed issues**: 533 · **Open issues**: 469 · **Commits**: 1664
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 19 | 10 | 5 | 11 | 19 |
-| last60d | 2026-07-26 | 0 | 29 | 27 | 7 | 22 | 30 |
-| 90d | 2026-06-26 | 0 | 42 | 33 | 10 | 29 | 41 |
-| last180d | 2026-03-28 | 1 | 88 | 46 | 27 | 59 | 110 |
-| 360d | 2025-09-29 | 2 | 201 | 65 | 113 | 112 | 279 |
-| last720d | 2024-10-04 | 7 | 295 | 73 | 191 | 211 | 556 |
+| 30d | 2026-08-26 | 0 | 16 | 13 | 5 | 13 | 19 |
+| last60d | 2026-07-27 | 0 | 29 | 30 | 7 | 24 | 30 |
+| 90d | 2026-06-27 | 0 | 41 | 36 | 9 | 31 | 41 |
+| last180d | 2026-03-29 | 1 | 88 | 49 | 27 | 61 | 110 |
+| 360d | 2025-09-30 | 2 | 200 | 68 | 113 | 114 | 279 |
+| last720d | 2024-10-05 | 7 | 294 | 76 | 191 | 213 | 556 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:55:04Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T05:05:46Z._
