@@ -14,12 +14,12 @@ x install btop
 
 ## Code insight
 
-Total: **37,149** lines of code across **70** files in the top 5 languages.
+Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | CHeader | 16,187 | 5,507 | 2,605 | 25 |
-| Cpp | 16,068 | 1,254 | 2,259 | 21 |
+| Cpp | 16,065 | 1,253 | 2,259 | 21 |
 | CppHeader | 2,591 | 383 | 326 | 13 |
 | C | 1,268 | 62 | 298 | 4 |
 | Yaml | 560 | 1 | 69 | 7 |
@@ -32,27 +32,27 @@ Total: **37,149** lines of code across **70** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.4.7` (2026-05-01)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-25
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 34,742 · **Forks**: 1,171 · **Open issues**: 1,002 · **Contributors**: 175
+- **Stars**: 34,754 · **Forks**: 1,172 · **Open issues**: 1,003 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 475 · **Open PRs**: 82 · **Closed issues**: 533 · **Open issues**: 469 · **Commits**: 1664
+- **Releases**: 55 · **Merged PRs**: 476 · **Open PRs**: 81 · **Closed issues**: 534 · **Open issues**: 469 · **Commits**: 1665
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 16 | 13 | 5 | 13 | 19 |
-| last60d | 2026-07-27 | 0 | 29 | 30 | 7 | 24 | 30 |
-| 90d | 2026-06-27 | 0 | 41 | 36 | 9 | 31 | 41 |
-| last180d | 2026-03-29 | 1 | 88 | 49 | 27 | 61 | 110 |
-| 360d | 2025-09-30 | 2 | 200 | 68 | 113 | 114 | 279 |
-| last720d | 2024-10-05 | 7 | 294 | 76 | 191 | 213 | 556 |
+| 30d | 2026-08-27 | 0 | 17 | 12 | 6 | 13 | 20 |
+| last60d | 2026-07-28 | 0 | 30 | 29 | 8 | 24 | 31 |
+| 90d | 2026-06-28 | 0 | 40 | 35 | 9 | 31 | 42 |
+| last180d | 2026-03-30 | 1 | 89 | 48 | 28 | 61 | 111 |
+| 360d | 2025-10-01 | 2 | 201 | 67 | 114 | 114 | 280 |
+| last720d | 2024-10-06 | 7 | 295 | 75 | 192 | 213 | 557 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:05:46Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:08:14Z._
