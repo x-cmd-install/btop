@@ -32,27 +32,27 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.4.7` (2026-05-01)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-30
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 34,803 · **Forks**: 1,183 · **Open issues**: 1,005 · **Contributors**: 176
+- **Stars**: 34,817 · **Forks**: 1,184 · **Open issues**: 1,009 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 476 · **Open PRs**: 91 · **Closed issues**: 535 · **Open issues**: 470 · **Commits**: 1665
+- **Releases**: 55 · **Merged PRs**: 479 · **Open PRs**: 89 · **Closed issues**: 537 · **Open issues**: 472 · **Commits**: 1668
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 14 | 22 | 5 | 13 | 12 |
-| last60d | 2026-08-01 | 0 | 29 | 35 | 8 | 22 | 29 |
-| 90d | 2026-07-02 | 0 | 39 | 43 | 9 | 32 | 39 |
-| last180d | 2026-04-03 | 1 | 88 | 58 | 27 | 61 | 109 |
-| 360d | 2025-10-05 | 2 | 200 | 77 | 112 | 114 | 275 |
-| last720d | 2024-10-10 | 7 | 295 | 85 | 193 | 213 | 557 |
+| 30d | 2026-09-01 | 0 | 16 | 20 | 6 | 16 | 15 |
+| last60d | 2026-08-02 | 0 | 31 | 32 | 9 | 23 | 32 |
+| 90d | 2026-07-03 | 0 | 42 | 41 | 10 | 35 | 42 |
+| last180d | 2026-04-04 | 1 | 91 | 56 | 28 | 63 | 112 |
+| 360d | 2025-10-06 | 2 | 203 | 75 | 113 | 115 | 278 |
+| last720d | 2024-10-11 | 7 | 298 | 83 | 193 | 216 | 560 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T05:41:12Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:13:22Z._
