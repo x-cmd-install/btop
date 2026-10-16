@@ -32,27 +32,27 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.4.7` (2026-05-01)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-15
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 34,988 · **Forks**: 1,211 · **Open issues**: 1,016 · **Contributors**: 176
+- **Stars**: 34,997 · **Forks**: 1,215 · **Open issues**: 1,020 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 482 · **Open PRs**: 99 · **Closed issues**: 540 · **Open issues**: 476 · **Commits**: 1671
+- **Releases**: 55 · **Merged PRs**: 483 · **Open PRs**: 108 · **Closed issues**: 541 · **Open issues**: 479 · **Commits**: 1672
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 11 | 26 | 5 | 18 | 10 |
-| last60d | 2026-08-16 | 0 | 28 | 32 | 9 | 26 | 28 |
-| 90d | 2026-07-17 | 0 | 41 | 49 | 10 | 37 | 42 |
-| last180d | 2026-04-18 | 1 | 90 | 66 | 27 | 66 | 110 |
-| 360d | 2025-10-20 | 2 | 201 | 84 | 110 | 117 | 271 |
-| last720d | 2024-10-25 | 7 | 301 | 93 | 194 | 221 | 563 |
+| 30d | 2026-09-16 | 0 | 11 | 35 | 6 | 20 | 11 |
+| last60d | 2026-08-17 | 0 | 29 | 41 | 10 | 28 | 29 |
+| 90d | 2026-07-18 | 0 | 40 | 58 | 11 | 40 | 43 |
+| last180d | 2026-04-19 | 1 | 91 | 75 | 27 | 69 | 111 |
+| 360d | 2025-10-21 | 2 | 200 | 93 | 110 | 119 | 272 |
+| last720d | 2024-10-26 | 7 | 302 | 102 | 195 | 224 | 564 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:49:35Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:36:48Z._
