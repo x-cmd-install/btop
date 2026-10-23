@@ -37,22 +37,22 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 35,068 · **Forks**: 1,225 · **Open issues**: 1,022 · **Contributors**: 176
+- **Stars**: 35,090 · **Forks**: 1,231 · **Open issues**: 1,023 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 485 · **Open PRs**: 110 · **Closed issues**: 543 · **Open issues**: 479 · **Commits**: 1674
+- **Releases**: 55 · **Merged PRs**: 485 · **Open PRs**: 111 · **Closed issues**: 543 · **Open issues**: 480 · **Commits**: 1674
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 10 | 34 | 5 | 18 | 10 |
-| last60d | 2026-08-23 | 0 | 30 | 43 | 11 | 29 | 30 |
-| 90d | 2026-07-24 | 0 | 40 | 60 | 12 | 40 | 40 |
-| last180d | 2026-04-25 | 1 | 91 | 78 | 26 | 69 | 109 |
-| 360d | 2025-10-27 | 2 | 191 | 95 | 108 | 117 | 253 |
-| last720d | 2024-11-01 | 7 | 304 | 104 | 196 | 223 | 566 |
+| 30d | 2026-09-23 | 0 | 10 | 34 | 5 | 19 | 10 |
+| last60d | 2026-08-24 | 0 | 30 | 44 | 11 | 30 | 30 |
+| 90d | 2026-07-25 | 0 | 40 | 61 | 12 | 41 | 40 |
+| last180d | 2026-04-26 | 1 | 91 | 79 | 26 | 70 | 109 |
+| 360d | 2025-10-28 | 2 | 188 | 96 | 107 | 118 | 253 |
+| last720d | 2024-11-02 | 7 | 304 | 105 | 196 | 223 | 566 |
 
 ## Release assets
 
@@ -70,6 +70,25 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 | [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
 | [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **134** distros on [repology.org](https://repology.org/project/btop). **64** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.7` | ✅ latest |
+| Debian 14 | `1.4.7` | ✅ latest |
+| Debian 13 | `1.3.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.3.0` | ⚠️ outdated |
+| Arch | `1.4.7` | ✅ latest |
+| Homebrew | `1.4.7` | ✅ latest |
+| Fedora rawhide | `1.4.7` | ✅ latest |
+| Nix unstable | `1.4.7` | ✅ latest |
+| Void | `1.4.7` | ✅ latest |
+| Alpine edge | `1.4.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.7` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `btop` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -79,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:49:25Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:56:11Z._

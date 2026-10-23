@@ -37,22 +37,22 @@ x install btop
 
 ## 流行度
 
-- **Star**: 35,068 · **Fork**: 1,225 · **开放 issue**: 1,022 · **贡献者**: 176
+- **Star**: 35,090 · **Fork**: 1,231 · **开放 issue**: 1,023 · **贡献者**: 176
 
 ## 累计统计
 
-- **发布数**: 55 · **已合并 PR**: 485 · **开放 PR**: 110 · **已关闭 issue**: 543 · **开放 issue**: 479 · **提交数**: 1674
+- **发布数**: 55 · **已合并 PR**: 485 · **开放 PR**: 111 · **已关闭 issue**: 543 · **开放 issue**: 480 · **提交数**: 1674
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 10 | 34 | 5 | 18 | 10 |
-| last60d | 2026-08-23 | 0 | 30 | 43 | 11 | 29 | 30 |
-| 90d | 2026-07-24 | 0 | 40 | 60 | 12 | 40 | 40 |
-| last180d | 2026-04-25 | 1 | 91 | 78 | 26 | 69 | 109 |
-| 360d | 2025-10-27 | 2 | 191 | 95 | 108 | 117 | 253 |
-| last720d | 2024-11-01 | 7 | 304 | 104 | 196 | 223 | 566 |
+| 30d | 2026-09-23 | 0 | 10 | 34 | 5 | 19 | 10 |
+| last60d | 2026-08-24 | 0 | 30 | 44 | 11 | 30 | 30 |
+| 90d | 2026-07-25 | 0 | 40 | 61 | 12 | 41 | 40 |
+| last180d | 2026-04-26 | 1 | 91 | 79 | 26 | 70 | 109 |
+| 360d | 2025-10-28 | 2 | 188 | 96 | 107 | 118 | 253 |
+| last720d | 2024-11-02 | 7 | 304 | 105 | 196 | 223 | 566 |
 
 ## Release 资产
 
@@ -70,6 +70,25 @@ x install btop
 | [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
 | [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/btop) 上共有 **134** 个发行版报告此项目。**64** 个 ✅ 已是最新上游版本，**59** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.4.7` | ✅ latest |
+| Debian 14 | `1.4.7` | ✅ latest |
+| Debian 13 | `1.3.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.6` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.3.0` | ⚠️ outdated |
+| Arch | `1.4.7` | ✅ latest |
+| Homebrew | `1.4.7` | ✅ latest |
+| Fedora rawhide | `1.4.7` | ✅ latest |
+| Nix unstable | `1.4.7` | ✅ latest |
+| Void | `1.4.7` | ✅ latest |
+| Alpine edge | `1.4.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.7` | ✅ latest |
+
 ## 改进这些数据
 
 btop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `btop` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -79,4 +98,4 @@ btop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:49:25Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:56:12Z._
