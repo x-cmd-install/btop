@@ -31,63 +31,63 @@ x install btop
 
 ## 发布
 
-- **最新版本**: `v1.4.7` (2026-05-01)
-- **最近提交**: 2026-10-23
+- **最新版本**: `v1.4.8` (2026-10-25)
+- **最近提交**: 2026-10-25
 - **Release 含资产**: 11 个
 
 ## 流行度
 
-- **Star**: 35,116 · **Fork**: 1,236 · **开放 issue**: 1,025 · **贡献者**: 176
+- **Star**: 35,124 · **Fork**: 1,238 · **开放 issue**: 1,028 · **贡献者**: 176
 
 ## 累计统计
 
-- **发布数**: 55 · **已合并 PR**: 487 · **开放 PR**: 115 · **已关闭 issue**: 544 · **开放 issue**: 481 · **提交数**: 1676
+- **发布数**: 56 · **已合并 PR**: 489 · **开放 PR**: 116 · **已关闭 issue**: 544 · **开放 issue**: 484 · **提交数**: 1679
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 11 | 36 | 4 | 19 | 12 |
-| last60d | 2026-08-26 | 0 | 28 | 48 | 10 | 32 | 32 |
-| 90d | 2026-07-27 | 0 | 41 | 65 | 12 | 43 | 42 |
-| last180d | 2026-04-28 | 1 | 93 | 83 | 25 | 72 | 111 |
-| 360d | 2025-10-30 | 2 | 189 | 100 | 105 | 120 | 255 |
-| last720d | 2024-11-04 | 7 | 303 | 108 | 197 | 224 | 565 |
+| 30d | 2026-09-26 | 1 | 10 | 34 | 4 | 21 | 11 |
+| last60d | 2026-08-27 | 1 | 30 | 49 | 10 | 35 | 27 |
+| 90d | 2026-07-28 | 1 | 43 | 66 | 12 | 46 | 43 |
+| last180d | 2026-04-29 | 2 | 94 | 83 | 25 | 75 | 102 |
+| 360d | 2025-10-31 | 3 | 191 | 101 | 105 | 122 | 245 |
+| last720d | 2024-11-05 | 8 | 305 | 109 | 197 | 227 | 567 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [btop-aarch64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-aarch64-unknown-linux-musl.tar.gz) | 960.3 KiB | `native/linux/arm64/musl` |
-| [btop-arm-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-arm-unknown-linux-musleabi.tar.gz) | 917.6 KiB | `native/linux/arm/musl` |
-| [btop-armv7-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-armv7-unknown-linux-musleabi.tar.gz) | 897.0 KiB | `native/linux/arm/musl` |
-| [btop-i586-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i586-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-i686-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i686-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/x86/musl` |
-| [btop-m68k-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-m68k-unknown-linux-musl.tar.gz) | 961.7 KiB | `native/unknown` |
-| [btop-mips64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-mips64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-powerpc64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-powerpc64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-riscv64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-riscv64-unknown-linux-musl.tar.gz) | 982.6 KiB | `native/linux/riscv64/musl` |
-| [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
-| [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
+| [btop-aarch64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-aarch64-unknown-linux-musl.tar.gz) | 950.4 KiB | `native/linux/arm64/musl` |
+| [btop-arm-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-arm-unknown-linux-musleabi.tar.gz) | 900.9 KiB | `native/linux/arm/musl` |
+| [btop-armv7-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-armv7-unknown-linux-musleabi.tar.gz) | 884.0 KiB | `native/linux/arm/musl` |
+| [btop-i586-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-i586-unknown-linux-musl.tar.gz) | 1.0 MiB | `native/unknown` |
+| [btop-i686-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-i686-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/x86/musl` |
+| [btop-m68k-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-m68k-unknown-linux-musl.tar.gz) | 938.6 KiB | `native/unknown` |
+| [btop-mips64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-mips64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-powerpc64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-powerpc64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-riscv64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-riscv64-unknown-linux-musl.tar.gz) | 978.4 KiB | `native/linux/riscv64/musl` |
+| [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
+| [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-x86_64-unknown-linux-musl.tar.gz) | 1.0 MiB | `native/linux/x64/musl` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/btop) 上共有 **135** 个发行版报告此项目。**65** 个 ✅ 已是最新上游版本，**59** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/btop) 上共有 **135** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**108** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.4.7` | ✅ latest |
-| Debian 14 | `1.4.7` | ✅ latest |
+| Debian unstable | `1.4.7` | ⚠️ outdated |
+| Debian 14 | `1.4.7` | ⚠️ outdated |
 | Debian 13 | `1.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.4.6` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.3.0` | ⚠️ outdated |
-| Arch | `1.4.7` | ✅ latest |
-| Homebrew | `1.4.7` | ✅ latest |
-| Fedora rawhide | `1.4.7` | ✅ latest |
-| Nix unstable | `1.4.7` | ✅ latest |
-| Void | `1.4.7` | ✅ latest |
-| Alpine edge | `1.4.7` | ✅ latest |
-| openSUSE Tumbleweed | `1.4.7` | ✅ latest |
+| Arch | `1.4.7` | ⚠️ outdated |
+| Homebrew | `1.4.8` | ✅ latest |
+| Fedora rawhide | `1.4.7` | ⚠️ outdated |
+| Nix unstable | `1.4.7` | ⚠️ outdated |
+| Void | `1.4.7` | ⚠️ outdated |
+| Alpine edge | `1.4.7` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.4.7` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -98,4 +98,4 @@ btop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261025.yml` · 2026-10-25T04:48:51Z._
+_数据快照: `data/card/261026.yml` · 2026-10-26T04:51:49Z._

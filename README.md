@@ -31,63 +31,63 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v1.4.7` (2026-05-01)
-- **Last commit**: 2026-10-23
+- **Latest**: `v1.4.8` (2026-10-25)
+- **Last commit**: 2026-10-25
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 35,116 · **Forks**: 1,236 · **Open issues**: 1,025 · **Contributors**: 176
+- **Stars**: 35,124 · **Forks**: 1,238 · **Open issues**: 1,028 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 487 · **Open PRs**: 115 · **Closed issues**: 544 · **Open issues**: 481 · **Commits**: 1676
+- **Releases**: 56 · **Merged PRs**: 489 · **Open PRs**: 116 · **Closed issues**: 544 · **Open issues**: 484 · **Commits**: 1679
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 11 | 36 | 4 | 19 | 12 |
-| last60d | 2026-08-26 | 0 | 28 | 48 | 10 | 32 | 32 |
-| 90d | 2026-07-27 | 0 | 41 | 65 | 12 | 43 | 42 |
-| last180d | 2026-04-28 | 1 | 93 | 83 | 25 | 72 | 111 |
-| 360d | 2025-10-30 | 2 | 189 | 100 | 105 | 120 | 255 |
-| last720d | 2024-11-04 | 7 | 303 | 108 | 197 | 224 | 565 |
+| 30d | 2026-09-26 | 1 | 10 | 34 | 4 | 21 | 11 |
+| last60d | 2026-08-27 | 1 | 30 | 49 | 10 | 35 | 27 |
+| 90d | 2026-07-28 | 1 | 43 | 66 | 12 | 46 | 43 |
+| last180d | 2026-04-29 | 2 | 94 | 83 | 25 | 75 | 102 |
+| 360d | 2025-10-31 | 3 | 191 | 101 | 105 | 122 | 245 |
+| last720d | 2024-11-05 | 8 | 305 | 109 | 197 | 227 | 567 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [btop-aarch64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-aarch64-unknown-linux-musl.tar.gz) | 960.3 KiB | `native/linux/arm64/musl` |
-| [btop-arm-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-arm-unknown-linux-musleabi.tar.gz) | 917.6 KiB | `native/linux/arm/musl` |
-| [btop-armv7-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-armv7-unknown-linux-musleabi.tar.gz) | 897.0 KiB | `native/linux/arm/musl` |
-| [btop-i586-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i586-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-i686-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-i686-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/x86/musl` |
-| [btop-m68k-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-m68k-unknown-linux-musl.tar.gz) | 961.7 KiB | `native/unknown` |
-| [btop-mips64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-mips64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-powerpc64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-powerpc64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
-| [btop-riscv64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-riscv64-unknown-linux-musl.tar.gz) | 982.6 KiB | `native/linux/riscv64/musl` |
-| [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
-| [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.7/btop-x86_64-unknown-linux-musl.tar.gz) | 1022.5 KiB | `native/linux/x64/musl` |
+| [btop-aarch64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-aarch64-unknown-linux-musl.tar.gz) | 950.4 KiB | `native/linux/arm64/musl` |
+| [btop-arm-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-arm-unknown-linux-musleabi.tar.gz) | 900.9 KiB | `native/linux/arm/musl` |
+| [btop-armv7-unknown-linux-musleabi.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-armv7-unknown-linux-musleabi.tar.gz) | 884.0 KiB | `native/linux/arm/musl` |
+| [btop-i586-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-i586-unknown-linux-musl.tar.gz) | 1.0 MiB | `native/unknown` |
+| [btop-i686-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-i686-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/linux/x86/musl` |
+| [btop-m68k-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-m68k-unknown-linux-musl.tar.gz) | 938.6 KiB | `native/unknown` |
+| [btop-mips64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-mips64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-powerpc64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-powerpc64-unknown-linux-musl.tar.gz) | 1.1 MiB | `native/unknown` |
+| [btop-riscv64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-riscv64-unknown-linux-musl.tar.gz) | 978.4 KiB | `native/linux/riscv64/musl` |
+| [btop-s390x-ibm-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-s390x-ibm-linux-musl.tar.gz) | 1.3 MiB | `native/unknown` |
+| [btop-x86_64-unknown-linux-musl.tar.gz](https://github.com/aristocratos/btop/releases/download/v1.4.8/btop-x86_64-unknown-linux-musl.tar.gz) | 1.0 MiB | `native/linux/x64/musl` |
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/btop). **65** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
+Reported by **135** distros on [repology.org](https://repology.org/project/btop). **16** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.4.7` | ✅ latest |
-| Debian 14 | `1.4.7` | ✅ latest |
+| Debian unstable | `1.4.7` | ⚠️ outdated |
+| Debian 14 | `1.4.7` | ⚠️ outdated |
 | Debian 13 | `1.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.4.6` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.3.0` | ⚠️ outdated |
-| Arch | `1.4.7` | ✅ latest |
-| Homebrew | `1.4.7` | ✅ latest |
-| Fedora rawhide | `1.4.7` | ✅ latest |
-| Nix unstable | `1.4.7` | ✅ latest |
-| Void | `1.4.7` | ✅ latest |
-| Alpine edge | `1.4.7` | ✅ latest |
-| openSUSE Tumbleweed | `1.4.7` | ✅ latest |
+| Arch | `1.4.7` | ⚠️ outdated |
+| Homebrew | `1.4.8` | ✅ latest |
+| Fedora rawhide | `1.4.7` | ⚠️ outdated |
+| Nix unstable | `1.4.7` | ⚠️ outdated |
+| Void | `1.4.7` | ⚠️ outdated |
+| Alpine edge | `1.4.7` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.4.7` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:48:50Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:51:48Z._
