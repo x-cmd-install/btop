@@ -1,46 +1,29 @@
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: starkos
+  subrepo: extra
   srcname: btop
-  binnames:
-    - btop
   visiblename: btop
-  version: 1.2.13
-  origversion: 1.2.13-1
-  status: outdated
+  version: 1.4.8
+  origversion: 1.4.8-1
+  status: newest
+  summary: A monitor for system resources
   maintainers:
-    - marius@ubports.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.3.2
-  origversion: 1.3.2-0.1
-  status: outdated
-  maintainers:
-    - mariogrip@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: btop
-  binnames:
-    - btop
+    - starkos@disroot.org
+- repo: aosc
+  srcname: app-utils/btop
+  binname: btop
   visiblename: btop
   version: 1.4.7
-  origversion: 1.4.7-1
-  status: newest
+  origversion: null
+  status: outdated
+  summary: Terminal system resource and status monitor
   maintainers:
-    - otto@debian.org
+    - fallback-mnt-aosc@repology
   categories:
-    - misc
+    - utils
 - repo: aerynos
   srcname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: Resource monitor TUI
@@ -111,6 +94,17 @@
     - michal@polanski.me
   licenses:
     - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: btop
+  binname: btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: outdated
+  summary: A monitor of system resources, bpytop ported to C++
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_21
   subrepo: community
   srcname: btop
@@ -209,7 +203,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-r0
-  status: newest
+  status: outdated
   summary: Resource monitor
   maintainers:
     - michal@polanski.me
@@ -222,7 +216,7 @@
   visiblename: btop-doc
   version: 1.4.7
   origversion: 1.4.7-r0
-  status: newest
+  status: outdated
   summary: Resource monitor (documentation)
   maintainers:
     - michal@polanski.me
@@ -250,8 +244,8 @@
     - btop
     - btop-debuginfo
   visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-alt1
+  version: 1.4.8
+  origversion: 1.4.8-alt1
   status: newest
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   maintainers:
@@ -260,29 +254,6 @@
     - Apache-2.0
   categories:
     - Monitoring
-- repo: aosc
-  srcname: app-utils/btop
-  binname: btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: null
-  status: newest
-  summary: Terminal system resource and status monitor
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: arch
-  subrepo: extra
-  srcname: btop
-  binname: btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: newest
-  summary: A monitor of system resources, bpytop ported to C++
-  licenses:
-    - Apache-2.0
 - repo: aur
   srcname: btop-git
   binname: btop-git
@@ -302,7 +273,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
@@ -313,7 +284,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-r0
-  status: newest
+  status: outdated
   summary: TUI monitor of system resources
   licenses:
     - Apache-2.0
@@ -324,7 +295,7 @@
   visiblename: btop-man
   version: 1.4.7
   origversion: 1.4.7-r0
-  status: newest
+  status: outdated
   summary: TUI monitor of system resources (manual pages)
   licenses:
     - Apache-2.0
@@ -333,7 +304,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   licenses:
     - Apache-2.0
@@ -341,8 +312,8 @@
   srcname: btop
   binname: btop
   visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-3
+  version: 1.4.8
+  origversion: 1.4.8-2
   status: newest
   summary: Resource monitor with rich features
   maintainers:
@@ -355,8 +326,8 @@
   srcname: btop
   binname: btop-debuginfo
   visiblename: btop-debuginfo
-  version: 1.4.7
-  origversion: 1.4.7-3
+  version: 1.4.8
+  origversion: 1.4.8-2
   status: newest
   summary: Resource monitor with rich features
   maintainers:
@@ -399,7 +370,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   maintainers:
     - otto@debian.org
   categories:
@@ -412,7 +383,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   maintainers:
     - otto@debian.org
   categories:
@@ -449,7 +420,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   maintainers:
     - otto@debian.org
   categories:
@@ -474,7 +445,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1.el9
-  status: newest
+  status: outdated
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
@@ -489,7 +460,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1.el10_3
-  status: newest
+  status: outdated
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
@@ -635,7 +606,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1.fc43
-  status: newest
+  status: outdated
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
@@ -656,20 +627,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1.fc44
-  status: newest
-  summary: Modern and colorful command line resource monitor that shows usage and stats
-  licenses:
-    - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: btop
   binnames:
@@ -683,6 +640,20 @@
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1.fc44
+  status: outdated
+  summary: Modern and colorful command line resource monitor that shows usage and stats
+  licenses:
+    - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: btop
@@ -691,7 +662,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-2.fc45
-  status: newest
+  status: outdated
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
@@ -703,7 +674,7 @@
   visiblename: sysutils/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - pkubaj@freebsd.org
@@ -729,7 +700,7 @@
   visiblename: sys-process/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: A monitor of resources
   maintainers:
     - nex+b-g-o@nexadn.de
@@ -745,12 +716,12 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Resource monitor
 - repo: homebrew
   srcname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -769,7 +740,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   maintainers:
     - otto@debian.org
   categories:
@@ -779,8 +750,8 @@
   srcname: btop
   binname: btop
   visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
+  version: 1.4.8
+  origversion: 1.4.8-1
   status: newest
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   maintainers:
@@ -811,6 +782,19 @@
     - MIT
   categories:
     - sys-process
+- repo: nix_stable_25_05
+  srcname: btop
+  visiblename: btop
+  version: 1.4.4
+  origversion: null
+  status: outdated
+  summary: Monitor of resources
+  maintainers:
+    - khaneliman12@gmail.com
+    - rmcgibbo@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
 - repo: liguros_stable
   srcname: sys-process/btop
   visiblename: sys-process/btop
@@ -826,25 +810,12 @@
     - MIT
   categories:
     - sys-process
-- repo: nix_stable_25_05
-  srcname: btop-cuda
-  visiblename: btop
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  summary: Monitor of resources
-  maintainers:
-    - khaneliman12@gmail.com
-    - rmcgibbo@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
 - repo: liguros_develop
   srcname: sys-process/btop
   visiblename: sys-process/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: A monitor of resources
   maintainers:
     - nex+b-g-o@nexadn.de
@@ -873,7 +844,7 @@
   srcname: sysutils/btop
   binname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: A monitor of resources
@@ -937,7 +908,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1.mga11
-  status: newest
+  status: outdated
   summary: A monitor of resources
   licenses:
     - Apache License 2.0
@@ -950,7 +921,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
@@ -961,7 +932,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
@@ -972,7 +943,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
@@ -1025,7 +996,7 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_05
-  srcname: btop
+  srcname: btop-cuda
   visiblename: btop
   version: 1.4.4
   origversion: null
@@ -1037,16 +1008,6 @@
     - xiaoyin_c@qq.com
   licenses:
     - Apache-2.0
-- repo: starkos
-  subrepo: extra
-  srcname: btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: newest
-  summary: A monitor for system resources
-  maintainers:
-    - starkos@disroot.org
 - repo: nix_stable_25_05
   srcname: btop-rocm
   visiblename: btop
@@ -1104,7 +1065,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1118,7 +1079,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1132,7 +1093,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1146,7 +1107,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1160,7 +1121,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1174,7 +1135,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - khaneliman12@gmail.com
@@ -1189,7 +1150,7 @@
   visiblename: sysutils/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: resource monitor
   maintainers:
     - ports@openbsd.org
@@ -1219,7 +1180,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: Usage and stats for processor, memory, disks, network and processes
   maintainers:
     - angrypenguinpoland@gmail.com
@@ -1235,7 +1196,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: Usage and stats for processor, memory, disks, network and processes
   maintainers:
     - angrypenguinpoland@gmail.com
@@ -1277,7 +1238,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7+git20260501.6e39144-1.2
-  status: newest
+  status: outdated
   summary: Usage and stats for processor, memory, disks, network and processes
   licenses:
     - Apache-2.0
@@ -1313,7 +1274,7 @@
   visiblename: btop-bin
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   maintainers:
     - wiz28@pm.me
@@ -1324,7 +1285,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
@@ -1340,7 +1301,7 @@
   maintainers:
     - marius@ubports.com
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: btop
   binnames:
     - btop
@@ -1353,7 +1314,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: btop
   binnames:
     - btop
@@ -1370,7 +1331,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1pclos2026
-  status: newest
+  status: outdated
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
   categories:
     - Monitoring
@@ -1380,7 +1341,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: A monitor of resources.
   maintainers:
     - admins@pisilinux.org
@@ -1394,7 +1355,7 @@
   visiblename: sysutils/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Colorful TTY resource monitor
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1406,7 +1367,7 @@
   visiblename: sysutils/btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Colorful TTY resource monitor
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1418,7 +1379,7 @@
   visiblename: sysutils/btop
   version: 1.4.7
   origversion: 1.4.7nb1
-  status: newest
+  status: outdated
   summary: Colorful TTY resource monitor
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1451,6 +1412,45 @@
     - mariogrip@debian.org
   categories:
     - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.2.13
+  origversion: 1.2.13-1
+  status: outdated
+  maintainers:
+    - marius@ubports.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.3.2
+  origversion: 1.3.2-0.1
+  status: outdated
+  maintainers:
+    - mariogrip@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: outdated
+  maintainers:
+    - otto@debian.org
+  categories:
+    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: btop
@@ -1479,7 +1479,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   summary: Modern and colorful command line resource monitor that shows usage and stats
   maintainers:
     - a.proklov@rosa.ru
@@ -1510,7 +1510,7 @@
   subrepo: slackware
   binname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   maintainers:
@@ -1519,7 +1519,7 @@
   subrepo: slackware64
   binname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   maintainers:
@@ -1528,7 +1528,7 @@
   srcname: btop
   binname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: btop is a monitor of system resources.
@@ -1542,7 +1542,7 @@
   srcname: btop
   binname: btop-dbginfo
   visiblename: btop-dbginfo
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: Debug symbols for btop
@@ -1557,7 +1557,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - alalazo@spack
   licenses:
@@ -1568,7 +1568,7 @@
   visiblename: bin/btop++
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - anton@samokhvalov.xyz
   categories:
@@ -1577,7 +1577,7 @@
   srcname: bin/btop++
   binname: bin/btop++
   visiblename: bin/btop++
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   maintainers:
@@ -1587,7 +1587,7 @@
 - repo: t2
   srcname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: Yet another resource monitor
@@ -1603,7 +1603,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: null
-  status: newest
+  status: outdated
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   maintainers:
     - me@tedstein.net
@@ -1680,7 +1680,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7-1
-  status: newest
+  status: outdated
   maintainers:
     - otto@debian.org
   categories:
@@ -1692,7 +1692,7 @@
   visiblename: btop
   version: 1.4.7
   origversion: 1.4.7_1
-  status: newest
+  status: outdated
   summary: Monitor of resources
   maintainers:
     - runningdroid@zoho.com
@@ -1702,8 +1702,8 @@
   subrepo: community
   srcname: btop
   visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
+  version: 1.4.8
+  origversion: 1.4.8-1
   status: newest
   summary: A monitor for system resources
   maintainers:
@@ -1711,7 +1711,7 @@
 - repo: wikidata
   srcname: Q117382602
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
   status: newest
   summary: monitor of resources, similar to top, bmon
