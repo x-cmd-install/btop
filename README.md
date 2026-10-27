@@ -37,7 +37,7 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 35,124 · **Forks**: 1,238 · **Open issues**: 1,028 · **Contributors**: 176
+- **Stars**: 35,136 · **Forks**: 1,241 · **Open issues**: 1,028 · **Contributors**: 176
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 10 | 34 | 4 | 21 | 11 |
-| last60d | 2026-08-27 | 1 | 30 | 49 | 10 | 35 | 27 |
-| 90d | 2026-07-28 | 1 | 43 | 66 | 12 | 46 | 43 |
-| last180d | 2026-04-29 | 2 | 94 | 83 | 25 | 75 | 102 |
-| 360d | 2025-10-31 | 3 | 191 | 101 | 105 | 122 | 245 |
-| last720d | 2024-11-05 | 8 | 305 | 109 | 197 | 227 | 567 |
+| 30d | 2026-09-27 | 1 | 10 | 33 | 4 | 21 | 11 |
+| last60d | 2026-08-28 | 1 | 30 | 49 | 9 | 35 | 27 |
+| 90d | 2026-07-29 | 1 | 42 | 66 | 12 | 46 | 43 |
+| last180d | 2026-04-30 | 2 | 93 | 83 | 25 | 75 | 102 |
+| 360d | 2025-11-01 | 3 | 191 | 101 | 105 | 122 | 245 |
+| last720d | 2024-11-06 | 8 | 305 | 109 | 197 | 227 | 567 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/btop). **16** are ✅ on the latest upstream release, **108** are ⚠️ on an older version.
+Reported by **135** distros on [repology.org](https://repology.org/project/btop). **18** are ✅ on the latest upstream release, **106** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:51:48Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:09:26Z._
