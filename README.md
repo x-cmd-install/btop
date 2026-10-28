@@ -37,22 +37,22 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 35,136 · **Forks**: 1,241 · **Open issues**: 1,028 · **Contributors**: 176
+- **Stars**: 35,148 · **Forks**: 1,242 · **Open issues**: 1,028 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 489 · **Open PRs**: 116 · **Closed issues**: 544 · **Open issues**: 484 · **Commits**: 1679
+- **Releases**: 56 · **Merged PRs**: 489 · **Open PRs**: 117 · **Closed issues**: 544 · **Open issues**: 484 · **Commits**: 1679
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 1 | 10 | 33 | 4 | 21 | 11 |
-| last60d | 2026-08-28 | 1 | 30 | 49 | 9 | 35 | 27 |
-| 90d | 2026-07-29 | 1 | 42 | 66 | 12 | 46 | 43 |
-| last180d | 2026-04-30 | 2 | 93 | 83 | 25 | 75 | 102 |
-| 360d | 2025-11-01 | 3 | 191 | 101 | 105 | 122 | 245 |
-| last720d | 2024-11-06 | 8 | 305 | 109 | 197 | 227 | 567 |
+| 30d | 2026-09-28 | 1 | 10 | 33 | 4 | 21 | 11 |
+| last60d | 2026-08-29 | 1 | 29 | 50 | 9 | 35 | 27 |
+| 90d | 2026-07-30 | 1 | 42 | 64 | 12 | 43 | 43 |
+| last180d | 2026-05-01 | 2 | 88 | 84 | 25 | 73 | 102 |
+| 360d | 2025-11-02 | 3 | 187 | 102 | 102 | 122 | 245 |
+| last720d | 2024-11-07 | 8 | 305 | 110 | 197 | 226 | 567 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Total: **37,146** lines of code across **70** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/btop). **18** are ✅ on the latest upstream release, **106** are ⚠️ on an older version.
+Reported by **135** distros on [repology.org](https://repology.org/project/btop). **23** are ✅ on the latest upstream release, **101** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -84,7 +84,7 @@ Reported by **135** distros on [repology.org](https://repology.org/project/btop)
 | Arch | `1.4.7` | ⚠️ outdated |
 | Homebrew | `1.4.8` | ✅ latest |
 | Fedora rawhide | `1.4.7` | ⚠️ outdated |
-| Nix unstable | `1.4.7` | ⚠️ outdated |
+| Nix unstable | `1.4.8` | ✅ latest |
 | Void | `1.4.7` | ⚠️ outdated |
 | Alpine edge | `1.4.7` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.4.7` | ⚠️ outdated |
@@ -98,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T05:09:26Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:52:13Z._
