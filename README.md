@@ -37,22 +37,22 @@ Total: **37,295** lines of code across **70** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 35,351 · **Forks**: 1,259 · **Open issues**: 1,038 · **Contributors**: 180
+- **Stars**: 35,369 · **Forks**: 1,260 · **Open issues**: 1,039 · **Contributors**: 180
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 498 · **Open PRs**: 121 · **Closed issues**: 547 · **Open issues**: 491 · **Commits**: 1693
+- **Releases**: 56 · **Merged PRs**: 498 · **Open PRs**: 122 · **Closed issues**: 547 · **Open issues**: 492 · **Commits**: 1693
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 1 | 16 | 26 | 4 | 17 | 14 |
-| last60d | 2026-09-13 | 1 | 27 | 51 | 9 | 38 | 28 |
-| 90d | 2026-08-14 | 1 | 44 | 57 | 13 | 46 | 45 |
-| last180d | 2026-05-16 | 1 | 90 | 87 | 23 | 76 | 90 |
-| 360d | 2025-11-17 | 3 | 186 | 106 | 92 | 126 | 246 |
-| last720d | 2024-11-22 | 8 | 313 | 114 | 194 | 223 | 579 |
+| 30d | 2026-10-14 | 1 | 16 | 26 | 4 | 18 | 14 |
+| last60d | 2026-09-14 | 1 | 27 | 50 | 9 | 36 | 28 |
+| 90d | 2026-08-15 | 1 | 44 | 56 | 13 | 44 | 45 |
+| last180d | 2026-05-17 | 1 | 87 | 88 | 23 | 77 | 90 |
+| 360d | 2025-11-18 | 3 | 185 | 107 | 92 | 127 | 246 |
+| last720d | 2024-11-23 | 8 | 313 | 115 | 194 | 223 | 579 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Total: **37,295** lines of code across **70** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **137** distros on [repology.org](https://repology.org/project/btop). **40** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/btop). **41** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for btop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:26:08Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T06:48:59Z._
