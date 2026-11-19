@@ -1,64 +1,3 @@
-- repo: raspbian_stable
-  subrepo: main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.3.2
-  origversion: 1.3.2-0.1
-  status: outdated
-  maintainers:
-    - mariogrip@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: outdated
-  maintainers:
-    - otto@debian.org
-  categories:
-    - misc
-- repo: chromebrew
-  srcname: btop
-  visiblename: btop
-  version: 1.4.8
-  origversion: null
-  status: newest
-  summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
-  licenses:
-    - Apache-2.0
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.3.2
-  origversion: 1.3.2-0.1
-  status: outdated
-  maintainers:
-    - mariogrip@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.2.13
-  origversion: 1.2.13-1
-  status: outdated
-  maintainers:
-    - marius@ubports.com
-  categories:
-    - misc
 - repo: aerynos
   srcname: btop
   visiblename: btop
@@ -120,6 +59,30 @@
     - michal@polanski.me
   licenses:
     - Apache-2.0
+- repo: deepin_25
+  subrepo: community
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.0
+  origversion: 1.4.0-0deepin1
+  status: outdated
+  maintainers:
+    - mariogrip@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: outdated
+  maintainers:
+    - otto@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: btop
@@ -183,17 +146,6 @@
   summary: Resource monitor
   maintainers:
     - michal@polanski.me
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: btop
-  binname: btop-man
-  visiblename: btop-man
-  version: 1.4.8
-  origversion: 1.4.8-r0
-  status: newest
-  summary: TUI monitor of system resources (manual pages)
   licenses:
     - Apache-2.0
 - repo: alpine_3_23
@@ -316,16 +268,6 @@
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
-- repo: starkos
-  subrepo: extra
-  srcname: btop
-  visiblename: btop
-  version: 1.4.8
-  origversion: 1.4.8-1
-  status: newest
-  summary: A monitor for system resources
-  maintainers:
-    - starkos@disroot.org
 - repo: aur
   srcname: btop-git
   binname: btop-git
@@ -349,17 +291,6 @@
   summary: A monitor of system resources, bpytop ported to C++
   licenses:
     - Apache-2.0
-- repo: artix_testing
-  subrepo: world-gremlins
-  srcname: btop
-  binname: btop
-  visiblename: btop
-  version: 1.4.8
-  origversion: 1.4.8-1
-  status: newest
-  summary: A monitor of system resources, bpytop ported to C++
-  licenses:
-    - Apache-2.0
 - repo: chimera
   subrepo: user
   srcname: btop
@@ -369,6 +300,26 @@
   origversion: 1.4.8-r0
   status: newest
   summary: TUI monitor of system resources
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: btop
+  binname: btop-man
+  visiblename: btop-man
+  version: 1.4.8
+  origversion: 1.4.8-r0
+  status: newest
+  summary: TUI monitor of system resources (manual pages)
+  licenses:
+    - Apache-2.0
+- repo: chromebrew
+  srcname: btop
+  visiblename: btop
+  version: 1.4.8
+  origversion: null
+  status: newest
+  summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
   licenses:
     - Apache-2.0
 - repo: cygwin
@@ -464,30 +415,6 @@
     - mariogrip@debian.org
   categories:
     - utils
-- repo: deepin_25
-  subrepo: community
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.4.0
-  origversion: 1.4.0-0deepin1
-  status: outdated
-  maintainers:
-    - mariogrip@debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1
-  status: outdated
-  maintainers:
-    - otto@debian.org
-  categories:
-    - misc
 - repo: epel_8
   srcname: btop
   visiblename: btop
@@ -557,19 +484,6 @@
     - Apache-2.0 and MIT and Public Domain
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: btop-cuda
-  visiblename: btop
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  summary: Monitor of resources
-  maintainers:
-    - khaneliman12@gmail.com
-    - rmcgibbo@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
 - repo: fedora_39
   subrepo: updates
   srcname: btop
@@ -581,6 +495,22 @@
   version: 1.3.2
   origversion: 1.3.2-1.fc39
   status: outdated
+  summary: Modern and colorful command line resource monitor that shows usage and stats
+  licenses:
+    - Apache-2.0 and MIT and Public Domain
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: btop
+  binnames:
+    - btop
+    - btop-debuginfo
+    - btop-debugsource
+  visiblename: btop
+  version: 1.3.2
+  origversion: 1.3.2-1.fc40
+  status: legacy
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 and MIT and Public Domain
@@ -600,22 +530,6 @@
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: btop
-  binnames:
-    - btop
-    - btop-debuginfo
-    - btop-debugsource
-  visiblename: btop
-  version: 1.3.2
-  origversion: 1.3.2-1.fc40
-  status: legacy
-  summary: Modern and colorful command line resource monitor that shows usage and stats
-  licenses:
-    - Apache-2.0 and MIT and Public Domain
   categories:
     - Unspecified
 - repo: fedora_41
@@ -647,20 +561,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: btop
-  binnames:
-    - btop
-  visiblename: btop
-  version: 1.4.0
-  origversion: 1.4.0-2.fc42
-  status: legacy
-  summary: Modern and colorful command line resource monitor that shows usage and stats
-  licenses:
-    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: btop
   binnames:
@@ -674,18 +574,18 @@
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: btop
   binnames:
     - btop
   visiblename: btop
-  version: 1.4.7
-  origversion: 1.4.7-1.fc43
-  status: outdated
+  version: 1.4.0
+  origversion: 1.4.0-2.fc42
+  status: legacy
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
-    - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
+    - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
 - repo: fedora_43
@@ -700,6 +600,20 @@
   summary: Modern and colorful command line resource monitor that shows usage and stats
   licenses:
     - Apache-2.0 AND LicenseRef-Fedora-Public-Domain
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1.fc43
+  status: outdated
+  summary: Modern and colorful command line resource monitor that shows usage and stats
+  licenses:
+    - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
 - repo: fedora_44
@@ -730,19 +644,6 @@
     - Apache-2.0 AND ISC AND MIT AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: btop-rocm
-  visiblename: btop
-  version: 1.4.4
-  origversion: null
-  status: outdated
-  summary: Monitor of resources
-  maintainers:
-    - khaneliman12@gmail.com
-    - rmcgibbo@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
 - repo: fedora_45
   subrepo: release
   srcname: btop
@@ -900,19 +801,6 @@
     - MIT
   categories:
     - sys-process
-- repo: nix_stable_25_11
-  srcname: btop
-  visiblename: btop
-  version: 1.4.5
-  origversion: null
-  status: outdated
-  summary: Monitor of resources
-  maintainers:
-    - khaneliman12@gmail.com
-    - rmcgibbo@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
 - repo: liguros_develop
   srcname: sys-process/btop
   visiblename: sys-process/btop
@@ -957,38 +845,6 @@
     - Apache-2
   categories:
     - sysutils
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: btop
-  binnames:
-    - btop
-    - btop-debuginfo
-    - btop-debugsource
-  visiblename: btop
-  version: 1.2.13
-  origversion: 1.2.13-3.mga9
-  status: outdated
-  summary: A monitor of resources
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Monitoring
-- repo: mageia_9
-  subrepo: core/release
-  srcname: btop
-  binnames:
-    - btop
-    - btop-debuginfo
-    - btop-debugsource
-  visiblename: btop
-  version: 1.2.13
-  origversion: 1.2.13-2.mga9
-  status: outdated
-  summary: A monitor of resources
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Monitoring
 - repo: mageia_10
   subrepo: core/release
   srcname: btop
@@ -1111,12 +967,43 @@
     - xiaoyin_c@qq.com
   licenses:
     - Apache-2.0
-- repo: ptxdist
-  srcname: btop
+- repo: nix_stable_25_05
+  srcname: btop-cuda
   visiblename: btop
-  version: 1.3.2
+  version: 1.4.4
   origversion: null
   status: outdated
+  summary: Monitor of resources
+  maintainers:
+    - khaneliman12@gmail.com
+    - rmcgibbo@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: btop-rocm
+  visiblename: btop
+  version: 1.4.4
+  origversion: null
+  status: outdated
+  summary: Monitor of resources
+  maintainers:
+    - khaneliman12@gmail.com
+    - rmcgibbo@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: btop
+  visiblename: btop
+  version: 1.4.5
+  origversion: null
+  status: outdated
+  summary: Monitor of resources
+  maintainers:
+    - khaneliman12@gmail.com
+    - rmcgibbo@gmail.com
+    - xiaoyin_c@qq.com
   licenses:
     - Apache-2.0
 - repo: nix_stable_25_11
@@ -1215,6 +1102,16 @@
     - nix@sigmasquadron.net
   licenses:
     - Apache-2.0
+- repo: vylen
+  subrepo: community
+  srcname: btop
+  visiblename: btop
+  version: 1.4.8
+  origversion: 1.4.8-1
+  status: newest
+  summary: A monitor for system resources
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: nix_unstable
   srcname: btop-rocm
   visiblename: btop
@@ -1420,6 +1317,15 @@
   summary: Resource monitor that shows usage and stats for processor, memory, disks, network and processes
   categories:
     - Monitoring
+- repo: wikidata
+  srcname: Q117382602
+  visiblename: btop
+  version: 1.4.8
+  origversion: null
+  status: newest
+  summary: monitor of resources, similar to top, bmon
+  licenses:
+    - Apache Software License 2.0
 - repo: pisi_main
   subrepo: main
   srcname: util/admin/btop
@@ -1476,6 +1382,66 @@
   version: 1.4.6
   origversion: 1.4.6-1
   status: outdated
+- repo: ptxdist
+  srcname: btop
+  visiblename: btop
+  version: 1.3.2
+  origversion: null
+  status: outdated
+  licenses:
+    - Apache-2.0
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.3.2
+  origversion: 1.3.2-0.1
+  status: outdated
+  maintainers:
+    - mariogrip@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.2.13
+  origversion: 1.2.13-1
+  status: outdated
+  maintainers:
+    - marius@ubports.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.3.2
+  origversion: 1.3.2-0.1
+  status: outdated
+  maintainers:
+    - mariogrip@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: btop
+  binnames:
+    - btop
+  visiblename: btop
+  version: 1.4.7
+  origversion: 1.4.7-1
+  status: outdated
+  maintainers:
+    - otto@debian.org
+  categories:
+    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: btop
@@ -1580,9 +1546,9 @@
 - repo: spack
   srcname: btop
   visiblename: btop
-  version: 1.4.7
+  version: 1.4.8
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - alalazo@spack
   licenses:
@@ -1609,6 +1575,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: btop
+  visiblename: btop
+  version: 1.4.8
+  origversion: 1.4.8-1
+  status: newest
+  summary: A monitor for system resources
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: btop
   visiblename: btop
@@ -1736,22 +1712,3 @@
     - runningdroid@zoho.com
   licenses:
     - Apache-2.0
-- repo: vylen
-  subrepo: community
-  srcname: btop
-  visiblename: btop
-  version: 1.4.8
-  origversion: 1.4.8-1
-  status: newest
-  summary: A monitor for system resources
-  maintainers:
-    - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q117382602
-  visiblename: btop
-  version: 1.4.8
-  origversion: null
-  status: newest
-  summary: monitor of resources, similar to top, bmon
-  licenses:
-    - Apache Software License 2.0
